@@ -1,0 +1,73 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background:#ffd5d5;
+  }
+  
+  /* خلفية صورة */
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://via.placeholder.com/1200x800');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    filter: brightness(0.7); /* تعتيم الصورة لتوضيح النص */
+  }
+  
+  /* تصميم النموذج */
+  .form-container {
+    background: rgba(0, 0, 0, 0.2); /* شفافية */
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 80px auto;
+    backdrop-filter: blur(10px); /* تمويه الخلفية */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    color: white;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+  }
+  
+  form input::placeholder,
+  form textarea::placeholder {
+    color: #ffffff;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #4311cc;
+  }
+  
